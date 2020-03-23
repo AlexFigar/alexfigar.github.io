@@ -5,263 +5,289 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Alex Figar - Interstellar Exploration</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body class="right-sidebar">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<div id="header">
+<head>
+	<title>Alex Figar - Interstellar Exploration</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
 
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h1><a href="index.html" id="logo"></a>Alex Figar</a></h1>
-							</header>
-						</div>
+<body class="right-sidebar">
+	<div id="page-wrapper">
 
-					<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="projects.html">Projects</a>
-								<ul>
-									<li><a href="1v1_racer.html">1v1 Racer</a></li>
-									<li><a href="stuck.html">Stuck</a></li>
-									<li><a href="interstellar_exploration.html">Interstellar Exploration</a></li>
-									<li><a href="elegantlymediocremod.html">The Elegantly Mediocre Mod</a></li>
-									<li><a href="turkeybot.html">Turkey Bot</a></li>
-									<li><a href="polyplanets.html">Poly Planets</a></li>
-								</ul>
-							</li>
-							<li><a href="downloads.html">Downloads</a></li>
-							<!-- <li><a href="server_hosting.html">Server Hosting</a></li> -->
-						</ul>
-					</nav>
+		<!-- Header -->
+		<div id="header">
 
+			<!-- Inner -->
+			<div class="inner">
+				<header>
+					<h1><a href="index.html" id="logo"></a>Alex Figar</a></h1>
+				</header>
 			</div>
 
-			<!-- Main -->
-				<div class="wrapper style1">
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<a href="projects.html">Projects</a>
+						<ul>
+							<li><a href="1v1_racer.html">1v1 Racer</a></li>
+							<li><a href="stuck.html">Stuck</a></li>
+							<li><a href="interstellar_exploration.html">Interstellar Exploration</a></li>
+							<li><a href="elegantlymediocremod.html">The Elegantly Mediocre Mod</a></li>
+							<li><a href="turkeybot.html">Turkey Bot</a></li>
+							<li><a href="polyplanets.html">Poly Planets</a></li>
+						</ul>
+					</li>
+					<li><a href="downloads.html">Downloads</a></li>
+					<!-- <li><a href="server_hosting.html">Server Hosting</a></li> -->
+				</ul>
+			</nav>
 
-					<div class="container">
-						<div class="row 200%">
-							<div class="8u 12u(mobile)" id="content">
-								<article id="main">
+		</div>
+
+		<!-- Main -->
+		<div class="wrapper style1">
+
+			<div class="container">
+				<div class="row 200%">
+					<div class="8u 12u(mobile)" id="content">
+						<article id="main">
+							<header>
+								<h2>Interstellar Exploration</h2>
+								<p>
+									A low poly first person, space exploration, survival game.
+									Explore an entire galaxy (well 2 planets at the moment but I'm getting there).
+								</p>
+							</header>
+							<a class="image featured"><img src="images/InterstellarExploration.jpg" alt="" /></a>
+							<p>
+								I have had so many ideas for this game that I think I have cut out a good two years
+								worth of work
+								for my self. I had a list of about 160 features, mechanics and environments to implement
+								ranging
+								from black holes and supernova's to banana themed space cafe's and intergalactic radio
+								stations.
+								I've been properly developing this game for about a year and I have had three prototypes
+								out for testing.
+							</p>
+
+							<section id="post">
+								<header>
+									<h3>Water Shader</h3>
+								</header>
+								<p>
+									After falling down the water shader rabbit hole I'm damn impressed that I even got something looking remotely as nice as this.
+								</p>
+								<a class="image featured"><img src="images/watershader1.jpeg" alt="" /></a>
+								<a class="image featured"><img src="images/watershader2.jpeg" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>Mirror Multiplayer</h3>
+								</header>
+								<p>
+									Ditched Photon for <a href="https://github.com/vis2k/Mirror">Mirror by Vis2K</a>.
+									Instead of all players having a peer to peer connection to a host player, all
+									players will connect to a
+									hosted game server. The main reason behind this decision was the scalabilty that comes with hosted servers.
+								</p>
+								<a class="image featured"><img src="images/PhotonToMirror.png" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>Moving to Universal Render Pipeline</h3>
+								</header>
+								<p>
+									Over the last 2 years of prototyping and experimenting with this project I have
+									gained a better understanding of game design and have a clearer vision going forward
+									for what I want this game to be.
+								</p>
+								<a class="image featured"><img src="images/IE-URP.png" alt="" /></a>
+
+							</section>
+							<section>
+								<header>
+									<h3>BIL Has Mood Lighting</h3>
+								</header>
+								<p>
+									Imagine having a boring old normal flashlight.
+								</p>
+								<a class="image featured"><iframe width=100% height="360" src="images/BIL.mp4"
+										frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
+
+							</section>
+							<section>
+								<header>
+									<h3>BIL</h3>
+								</header>
+								<p>
+									Flashlights are boring, meet BIL. When things get dark BIL will be there to light
+									your way. (Building, Information and Lighting).
+								</p>
+								<a class="image featured"><img src="images/BIL.jpeg" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>Weather</h3>
+								</header>
+								<p>
+									Starting adding a weather system. Here is my first attempt at sandstorms.
+								</p>
+								<a class="image featured"><img src="images/weather.jpg" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>The Vanitas System</h3>
+								</header>
+								<p>
+									The second solar system in the game. The Vanitas system has 1 small planet and 2
+									large planets orbiting a red giant star.
+								</p>
+								<a class="image featured"><img src="images/VanitasSystem.png" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>Lootable Storage Crates</h3>
+								</header>
+								<p>
+									Crates on planets now start off with loot to be found by players when exploring.
+								</p>
+								<a class="image featured"><img src="images/LootableStorageCrates.png" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>Storage!</h3>
+								</header>
+								<p>
+									Ship lockers! You can now store items on your ship as well as on planets in crates.
+								</p>
+								<a class="image featured"><img src="images/Shiplocker.png" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>Planet Initium C</h3>
+								</header>
+								<p>
+									Third planet in the Initium solar system. This planet is the most "earth" like
+									planet and it's big enough for me to experiment with biomes in the future.
+								</p>
+								<a class="image featured"><img src="images/planet3.png" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>Objectives</h3>
+								</header>
+								<p>
+									Actual Gameplay now. Only a few to test the system. Gather resources to repair your
+									ship and leave the planet.
+								</p>
+								<a class="image featured"><img src="images/Objectives.png" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>Vehicles</h3>
+								</header>
+								<p>
+									Vehicles are getting there thanks to the help of a friend who spent a few days
+									fiddling around with wheel colliders for me (yep they still suck).
+									I'm still working on the script that allows the player to get in and out of the
+									vehicle.
+								</p>
+								<a class="image featured"><img src="images/Vehicle1.png" alt="" /></a>
+								<a class="image featured"><img src="images/Vehicle2.png" alt="" /></a>
+							</section>
+							<section id="#Latest">
+								<header>
+									<h3>26/09/2018 - Updated to v0.0.4</h3>
+								</header>
+								<p>
+									Not a whole lot this month, mainly just bug fixes:
+									<li>Ship now moves to the planet instead of teleporting.</li>
+									<li>Partial planet saving.</li>
+									<li>Added dragon skeleton to Initium A.</li>
+									<li>Added more ruins to Initium A.</li>
+									<li>Added a second planet, Initium B.</li>
+									<li>Fixed automatic doors.</li>
+									<li>Fixed bug that allowed items on other planets to be visible.</li>
+									<li>Fixed bug that allowed players on other planets to be visible.</li>
+									<li>Fixed bug that caused terrain to disappear on Initium A.</li>
+									<li>Fixed bug that caused under water effects to appear and disappear for other
+										players.</li>
+									<li>Fixed bug that caused multiple trees to occupy the same space as each other.
+									</li>
+								</p>
+								<a class="image featured"><img src="images/DragonSkeleton.png" alt="" /></a>
+							</section>
+							<section>
+								<header>
+									<h3>Planet Saving Part 1/2</h3>
+								</header>
+								<p>
+									Ok so at the moment when you break a resource it only stays broken for that session.
+									If you quit and come back the resource will have returned (unlimited materials). So
+									to fix this I added uid's to
+									all default resources and a quick check on the master clients save data to determine
+									if the resource should be destroyed or not.
+								</p>
+								<a class="image featured"><img src="images/savingpart1.png" alt="" /></a>
+							</section>
+							<section>
+								<section id="post">
 									<header>
-										<h2>Interstellar Exploration</h2>
-										<p>
-											A low poly first person, space exploration, survival game. 
-											Explore an entire galaxy (well 2 planets at the moment but I'm getting there).
-										</p>
+										<h3>Hotbar</h3>
 									</header>
-									<a class="image featured"><img src="images/InterstellarExploration.jpg" alt="" /></a>
 									<p>
-										I have had so many ideas for this game that I think I have cut out a good two years worth of work
-										for my self. I had a list of about 160 features, mechanics and environments to implement ranging
-										from black holes and supernova's to banana themed space cafe's and intergalactic radio stations. 
-										I've been properly developing this game for about a year and I have had three prototypes out for testing.
+										It's such a small feature but it feels like I made a massive leap.
+										You can equip items in the inventory and hold them in the hotbar. Numbers 1-5
+										control which slot is selected. Press q to drop the item you are holding.
 									</p>
-								<!--<section id="post">
-									<header>
-											<h3>20/03/2019 - Updated to v0.0.5</h3>
-										</header>
-										<p>
-											Changes in v0.0.6:
-											<li>Objective system.</li>
-											<li>First 5 objectives of the main story.</li>
-											<li>Sound effects.</li>
-											<li>Ship reactor.</li>
-											<li>Ship requires fuel to travel (Hydrogen, Helium).</li>
-											<li>New (not really improved) water physics.</li>
-											<li>Reworked post processing.</li>
-											<li>Updated to Unity 2018.3.11f1.</li>
-											<li>Populated Initium A and Initium B with resources.</li>
-											<li>Added a mesh culling system to improve preformance.</li>
-											<li>Steam intergration (game won't boot without a valid copy of the game on Steam).</li>
-											<li>Ship lockers to store items in.</li>
-											<li>Crates with items spawn on planets with loot.</li>
-											<li>Removed "Tardis" concept from the lab on InitiumA</li>
-											<li>The Vanitas system.</li>
-											<li>Vanitas A.</li>
-											<li>Vanitas B.</li>
-											<li>Vanitas C.</li>
-											<li>Weather such as rain and sandstorms.</li>
-										</p>
-										<a class="image featured"><img src="images/screenshot3.png" alt="" /></a>
-									</section>-->
-									<section id="post">
-										<header>
-											<h3>BIL Has Mood Lighting</h3>
-										</header>
-										<p>
-											Imagine having a boring old normal flashlight.
-										</p>
-											<a class="image featured"><iframe width=100% height="360" src="images/BIL.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
-											
+									<a class="image featured"><img src="images/hotbar.png" alt="" /></a>
 								</section>
-									<section>
-										<header>
-											<h3>BIL</h3>
-										</header>
-										<p>
-											Flashlights are boring, meet BIL. When things get dark BIL will be there to light your way. (Building, Information and Lighting).
-										</p>
-											<a class="image featured"><img src="images/BIL.jpeg" alt="" /></a>
-								</section>
-									<section>
-										<header>
-											<h3>Weather</h3>
-										</header>
-										<p>
-												Starting adding a weather system. Here is my first attempt at sandstorms.
-										</p>
-											<a class="image featured"><img src="images/weather.jpg" alt="" /></a>
-								</section>
-									<section>
-											<header>
-												<h3>The Vanitas System</h3>
-											</header>
-											<p>
-												The second solar system in the game. The Vanitas system has 1 small planet and 2 large planets orbiting a red giant star.
-											</p>
-												<a class="image featured"><img src="images/VanitasSystem.png" alt="" /></a>
-									</section>
-										<section>
-											<header>
-												<h3>Lootable Storage Crates</h3>
-											</header>
-											<p>
-												Crates on planets now start off with loot to be found by players when exploring.
-											</p>
-												<a class="image featured"><img src="images/LootableStorageCrates.png" alt="" /></a>
-										</section>
-									<section>
-										<header>
-											<h3>Storage!</h3>
-										</header>
-										<p>
-											Ship lockers! You can now store items on your ship as well as on planets in crates.
-										</p>
-											<a class="image featured"><img src="images/Shiplocker.png" alt="" /></a>
-									</section>
-									<section>
-										<header>
-											<h3>Planet Initium C</h3>
-										</header>
-										<p>
-											Third planet in the Initium solar system. This planet is the most "earth" like planet and it's big enough for me to experiment with biomes in the future.
-										</p>
-										<a class="image featured"><img src="images/planet3.png" alt="" /></a>
-									</section>
-									<section>
-										<header>
-											<h3>Objectives</h3>
-										</header>
-										<p>
-											Actual Gameplay now. Only a few to test the system. Gather resources to repair your ship and leave the planet.
-										</p>
-										<a class="image featured"><img src="images/Objectives.png" alt="" /></a>
-									</section>
-									<section>
-										<header>
-											<h3>Vehicles</h3>
-										</header>
-										<p>
-											Vehicles are getting there thanks to the help of a friend who spent a few days fiddling around with wheel colliders for me (yep they still suck).
-											I'm still working on the script that allows the player to get in and out of the vehicle.
-										</p>
-										<a class="image featured"><img src="images/Vehicle1.png" alt="" /></a>
-										<a class="image featured"><img src="images/Vehicle2.png" alt="" /></a>
-									</section>
-									<section id="#Latest">
-										<header>
-											<h3>26/09/2018 - Updated to v0.0.4</h3>
-										</header>
-										<p>
-											Not a whole lot this month, mainly just bug fixes:
-											<li>Ship now moves to the planet instead of teleporting.</li>
-											<li>Partial planet saving.</li>
-											<li>Added dragon skeleton to Initium A.</li>
-											<li>Added more ruins to Initium A.</li>
-											<li>Added a second planet, Initium B.</li>
-											<li>Fixed automatic doors.</li>
-											<li>Fixed bug that allowed items on other planets to be visible.</li>
-											<li>Fixed bug that allowed players on other planets to be visible.</li>
-											<li>Fixed bug that caused terrain to disappear on Initium A.</li>
-											<li>Fixed bug that caused under water effects to appear and disappear for other players.</li>
-											<li>Fixed bug that caused multiple trees to occupy the same space as each other.</li>
-										</p>
-										<a class="image featured"><img src="images/DragonSkeleton.png" alt="" /></a>
-									</section>
-									<section>
-										<header>
-											<h3>Planet Saving Part 1/2</h3>
-										</header>
-										<p>
-											Ok so at the moment when you break a resource it only stays broken for that session. 
-											If you quit and come back the resource will have returned (unlimited materials). So to fix this I added uid's to 
-											all default resources and a quick check on the master clients save data to determine if the resource should be destroyed or not.
-										</p>
-										<a class="image featured"><img src="images/savingpart1.png" alt="" /></a>
-									</section>
 								<section>
-									<section id="post">
-										<header>
-											<h3>Hotbar</h3>
-										</header>
-										<p>
-											It's such a small feature but it feels like I made a massive leap.
-											You can equip items in the inventory and hold them in the hotbar. Numbers 1-5 control which slot is selected. Press q to drop the item you are holding.
-										</p>
-										<a class="image featured"><img src="images/hotbar.png" alt="" /></a>
-									</section>
-									<section>
-											<header>
-												<h3> A Second Planet</h3>
-											</header>
-											<p>
-												Giant flower forests, purble oceans and a gorgeous sky.
-												Looks like something from a Dr Seuss book.
-											</p>
-											<a class="image featured"><img src="images/InitiumB.png" alt="" /></a>
-										</section>
-									<section>
-										<header>
-											<h3>23/08/2018 - Updated to v0.0.3</h3>
-										</header>
-										<p>
-											Now that the multiplayer prototype is done I can continue 
-											moving through this massive to do list.<br>
-											Major multiplayer improvements and more:<br>
-											<li>A settings menu.</li>
-											<li>Playable multiplayer.</li>
-											<li>Items are synced in multiplayer.</li>
-											<li>Resources, trees and rocks are synced in multiplayer.</li>
-											<li>Planets are synced in multiplayer.</li>
-											<li>Ships are synced in multiplayer.</li>
-											<li>Tardis effect works in multiplayer</li>
-											<li>Graphical improvements.</li>
-											<li>Performance improvements.</li>
-											<li>"Toaster" setting preset added.</li>
-											<li>Removed the solid object in the sun.</li>
-											<li>Improved day/night cycle to stop objects being lit up from underneath terrain.</li>
-											<li>Caves use depth masks instead of cutting a hole in the terrain.</li>
-											<li>Space potato playermodel.</li>
-											<li>New ship material shader.</li>
-											<li>Fixed multi tool from twisting as player looks up.</li>
-											<li>Made crosshair smaller.</li>
-										</p>
-										<a class="image featured"><img src="images/V0.0.3.png" alt="" /></a>
-									</section>
-									<!-- <section>
+									<header>
+										<h3> A Second Planet</h3>
+									</header>
+									<p>
+										Giant flower forests, purble oceans and a gorgeous sky.
+										Looks like something from a Dr Seuss book.
+									</p>
+									<a class="image featured"><img src="images/InitiumB.png" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>23/08/2018 - Updated to v0.0.3</h3>
+									</header>
+									<p>
+										Now that the multiplayer prototype is done I can continue
+										moving through this massive to do list.<br>
+										Major multiplayer improvements and more:<br>
+										<li>A settings menu.</li>
+										<li>Playable multiplayer.</li>
+										<li>Items are synced in multiplayer.</li>
+										<li>Resources, trees and rocks are synced in multiplayer.</li>
+										<li>Planets are synced in multiplayer.</li>
+										<li>Ships are synced in multiplayer.</li>
+										<li>Tardis effect works in multiplayer</li>
+										<li>Graphical improvements.</li>
+										<li>Performance improvements.</li>
+										<li>"Toaster" setting preset added.</li>
+										<li>Removed the solid object in the sun.</li>
+										<li>Improved day/night cycle to stop objects being lit up from underneath
+											terrain.</li>
+										<li>Caves use depth masks instead of cutting a hole in the terrain.</li>
+										<li>Space potato playermodel.</li>
+										<li>New ship material shader.</li>
+										<li>Fixed multi tool from twisting as player looks up.</li>
+										<li>Made crosshair smaller.</li>
+									</p>
+									<a class="image featured"><img src="images/V0.0.3.png" alt="" /></a>
+								</section>
+								<!-- <section>
 											<header>
 												<h3>Coming To Steam</h3>
 											</header>
@@ -270,365 +296,389 @@
 											</p>
 											<a class="image featured"><img src="images/Steam.png" alt="" /></a>
 										</section> -->
-									<section>
-											<header>
-												<h3>Not Quite a Blue Box</h3>
-											</header>
-											<p>
-												A really satisfying tardis effect made using smooth portals. Maybe a ship idea but
-												I doubt it will work in multiplayer. *Edit* Nvm it worked really well in multiplayer.
-											</p>
-											<a class="image featured"><iframe width="640" height="360" src="https://www.youtube.com/embed/sktRWZiAOm0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
-										</section>
-									<section>
-										<header>
-											<h3>Multiplayer!</h3>
-										</header>
-										<p>
-											Basic multiplayer has been added.<br>
-											Players can see each other and drop and pick up items
-											 but not all world objects are synchronised. And yes you are a space potato.
-										</p>
-										<a class="image featured"><img src="images/multiplayer.png" alt="" /></a>
-									</section>
-									<section>
-										<header>
-											<h3>26/07/2018 - Updated to v0.0.2</h3>
-										</header>
-										<p>
-											Feedback from version 0.0.1 has been taken on board and applied:<br>
-											<li>Players weight has been reduced to stop clunky movement.</li>
-											<li>Physical materials have been added to all known colliders to stop object sticking together.</li>
-											<li>Water physics and effects.</li>
-											<li>MultiTools beam now goes where player is aiming (to a degree it's a WIP).</li>
-											<li>Planet Rotates.</li>
-											<li>Removed the solid object in the sun.</li>
-											<li>Added some more things to explore on Initium A.</li>
-											<li>Added cliffs.</li>
-											<li>UI's now can be exited by pressing escape.</li>
-											<li>Multiple UI's can no longer be open at the same time.</li>
-											<li>Reduced shadow flickering.</li>
-											<li>Stopped lines appearing across rocks at sunset and sunrise.</li>
-											<li>Added a "report bug" button to main menu.</li>
-											<li>Added a pause menu.</li>
-											<!--<li>Fog has been added to improve performance.</li>-->
-											<li>Items can now be moved and item stacks can be split in the inventory.</li>
-										</p>
-										<a class="image featured"><img src="images/V0.0.2.png" alt="" /></a>
-									</section>
-									<section>
-										<header>
-											<h3>Graphical Changes</h3>
-										</header>
-										<p>
-											Just tweaking the post processing profile.
-										</p>
-										<a class="image featured"><img src="images/Updated.jpg" alt="" /></a>
-									</section>
-									<section>
-										<header>
-											<h3>Functioning water</h3>
-										</header>
-										<p>
-											Under water effects and temporary water physics. The Player should feel slower in water and experience some bouyancy.
-										</p>
-										<a class="image featured"><img src="images/underwaterfx.png" alt="" /></a>
-									</section>
-									<section>
-										<header>
-											<h3>25/06/2018 - Updated to v0.0.1</h3>
-										</header>
-										<p>
-											This is a demo version. Meaning that only the core features are enabled for testing, the rest are disabled.<br>
-											Enabled features:
-											<li>Beaming up and down.</li>
-											<li>Breaking resources and picking up items.</li>
-											<li>Exploring planet below.</li>
-										</p>
-										<a class="image featured"><img src="images/V0.0.1.png" alt="" /></a>
-									</section>
-									<section>
-										<header>
-											<h3>Item Stacking!</h3>
-										</header>
-										<p>
-                                            This means items with the stackable attribute enabled will occupy the same
-                                            slot in the inventory.
-										</p>
-										<a class="image featured"><img src="images/WoodStacking.png" alt="" /></a>
-									</section>
-									<section>
-											<header>
-												<h3>Dynamic Loading</h3>
-											</header>
-											<p>
-												This unloads every mesh thats 1000+ metres away from a player.
-												On average frames increased by 6% with a peak of 12% and a low of 3%
-											</p>
-											<a class="image featured"><img src="images/dynamicloader.gif" alt="" /></a>
-										</section>
-										<section>
-												<header>
-													<h3>An Oasis on "Initium A"</h3>
-												</header>
-												<p>
-													One of many areas that the player will be able to explore around the planet. The oasis will provide the player with resources that would normally be
-													difficult to get hold of in a arid, dry desert environment. 
-												</p>
-												<a class="image featured"><img src="images/oasis.jpg" alt="" /></a>
-											</section>
-											<section>
-												<header>
-													<h3>First Planet</h3>
-												</header>
-												<p>
-													First Planet in the Initium Solar System, "Initium A".<br> 
-													Initium A is a dry and arid desert planet with little life. 
-                                                    A perfect place for the player to learn how to use the controls.
-												</p>
-												<a class="image featured"><img src="images/InitiumA.png" alt="" /></a>
-											</section>
-											<section>
-												<header>
-													<h3>Inventory System Updated</h3>
-												</header>
-												<p>
-													Created an Inventory that saves and loads across scenes using prefabs. (ignore the icons they're place holders)
-												</p>
-												<a class="image featured"><img src="images/inv.png" alt="" /></a>
-											</section>
-
-											<section>
-												<header>
-													<h3>Inventory System Started</h3>
-												</header>
-												<p>
-													Got to work on starting the survival inventory. Thought out the required features and started planning
-													how the inventory is going to save and load data cross scenes. Player Prefs is not ideal and will almost certainly be changed in the future but for now it will do.
-												</p>
-												<a class="image featured"><img src="images/invdataflow.png" alt="" /></a>
-											</section>
-								</article>
-							</div>
-
-							<!-- Sidebar bollucks-->
-							<div class="4u 12u(mobile)" id="sidebar">
-								<hr class="first" />
 								<section>
 									<header>
-										<h3>Current Version</h3>
+										<h3>Not Quite a Blue Box</h3>
 									</header>
-
 									<p>
-										Interstellar Exploration is being tested on version 0.0.4 released on 26/09/2018. <br>Update included:
-										<li>Saving.</li>
-										<li>Bug Fixes</li>
+										A really satisfying tardis effect made using smooth portals. Maybe a ship idea
+										but
+										I doubt it will work in multiplayer. *Edit* Nvm it worked really well in
+										multiplayer.
 									</p>
-									<footer>
-										<!--<form action="https://docs.google.com/forms/d/e/1FAIpQLSfZ-TQGW9KpA1-amJF1lkXdyl6rL3TWKLxNJ0ohfbUDWty_xg/formResponse" method="POST">
+									<a class="image featured"><iframe width="640" height="360"
+											src="https://www.youtube.com/embed/sktRWZiAOm0" frameborder="0"
+											allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
+								</section>
+								<section>
+									<header>
+										<h3>Multiplayer!</h3>
+									</header>
+									<p>
+										Basic multiplayer has been added.<br>
+										Players can see each other and drop and pick up items
+										but not all world objects are synchronised. And yes you are a space potato.
+									</p>
+									<a class="image featured"><img src="images/multiplayer.png" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>26/07/2018 - Updated to v0.0.2</h3>
+									</header>
+									<p>
+										Feedback from version 0.0.1 has been taken on board and applied:<br>
+										<li>Players weight has been reduced to stop clunky movement.</li>
+										<li>Physical materials have been added to all known colliders to stop object
+											sticking together.</li>
+										<li>Water physics and effects.</li>
+										<li>MultiTools beam now goes where player is aiming (to a degree it's a WIP).
+										</li>
+										<li>Planet Rotates.</li>
+										<li>Removed the solid object in the sun.</li>
+										<li>Added some more things to explore on Initium A.</li>
+										<li>Added cliffs.</li>
+										<li>UI's now can be exited by pressing escape.</li>
+										<li>Multiple UI's can no longer be open at the same time.</li>
+										<li>Reduced shadow flickering.</li>
+										<li>Stopped lines appearing across rocks at sunset and sunrise.</li>
+										<li>Added a "report bug" button to main menu.</li>
+										<li>Added a pause menu.</li>
+										<!--<li>Fog has been added to improve performance.</li>-->
+										<li>Items can now be moved and item stacks can be split in the inventory.</li>
+									</p>
+									<a class="image featured"><img src="images/V0.0.2.png" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>Graphical Changes</h3>
+									</header>
+									<p>
+										Just tweaking the post processing profile.
+									</p>
+									<a class="image featured"><img src="images/Updated.jpg" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>Functioning water</h3>
+									</header>
+									<p>
+										Under water effects and temporary water physics. The Player should feel slower
+										in water and experience some bouyancy.
+									</p>
+									<a class="image featured"><img src="images/underwaterfx.png" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>25/06/2018 - Updated to v0.0.1</h3>
+									</header>
+									<p>
+										This is a demo version. Meaning that only the core features are enabled for
+										testing, the rest are disabled.<br>
+										Enabled features:
+										<li>Beaming up and down.</li>
+										<li>Breaking resources and picking up items.</li>
+										<li>Exploring planet below.</li>
+									</p>
+									<a class="image featured"><img src="images/V0.0.1.png" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>Item Stacking!</h3>
+									</header>
+									<p>
+										This means items with the stackable attribute enabled will occupy the same
+										slot in the inventory.
+									</p>
+									<a class="image featured"><img src="images/WoodStacking.png" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>Dynamic Loading</h3>
+									</header>
+									<p>
+										This unloads every mesh thats 1000+ metres away from a player.
+										On average frames increased by 6% with a peak of 12% and a low of 3%
+									</p>
+									<a class="image featured"><img src="images/dynamicloader.gif" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>An Oasis on "Initium A"</h3>
+									</header>
+									<p>
+										One of many areas that the player will be able to explore around the planet. The
+										oasis will provide the player with resources that would normally be
+										difficult to get hold of in a arid, dry desert environment.
+									</p>
+									<a class="image featured"><img src="images/oasis.jpg" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>First Planet</h3>
+									</header>
+									<p>
+										First Planet in the Initium Solar System, "Initium A".<br>
+										Initium A is a dry and arid desert planet with little life.
+										A perfect place for the player to learn how to use the controls.
+									</p>
+									<a class="image featured"><img src="images/InitiumA.png" alt="" /></a>
+								</section>
+								<section>
+									<header>
+										<h3>Inventory System Updated</h3>
+									</header>
+									<p>
+										Created an Inventory that saves and loads across scenes using prefabs. (ignore
+										the icons they're place holders)
+									</p>
+									<a class="image featured"><img src="images/inv.png" alt="" /></a>
+								</section>
+
+								<section>
+									<header>
+										<h3>Inventory System Started</h3>
+									</header>
+									<p>
+										Got to work on starting the survival inventory. Thought out the required
+										features and started planning
+										how the inventory is going to save and load data cross scenes. Player Prefs is
+										not ideal and will almost certainly be changed in the future but for now it will
+										do.
+									</p>
+									<a class="image featured"><img src="images/invdataflow.png" alt="" /></a>
+								</section>
+						</article>
+					</div>
+
+					<!-- Sidebar bollucks-->
+					<div class="4u 12u(mobile)" id="sidebar">
+						<hr class="first" />
+						<section>
+							<header>
+								<h3>Current Version</h3>
+							</header>
+
+							<p>
+								Interstellar Exploration is being tested on version 0.0.4 released on 26/09/2018.
+								<br>Update included:
+								<li>Saving.</li>
+								<li>Bug Fixes</li>
+							</p>
+							<footer>
+								<!--<form action="https://docs.google.com/forms/d/e/1FAIpQLSfZ-TQGW9KpA1-amJF1lkXdyl6rL3TWKLxNJ0ohfbUDWty_xg/formResponse" method="POST">
 											<label>Email Address*</label>
 											<input type="email" placeholder="Email address*" name="entry.772189125" required>
 											<button type="submit">Enter</button>
 										</form>-->
-										<a href="downloads.html#interstellarexplorationDownload" class="button">Download</a>
-									</footer>
-								</section>
-								<hr />
-								<section>
-									<header>
-										<h3>To Do List:</h3>
-									</header>
-									<div class="row 50%">
-										<div class="8u">
-											<h4>Planet Saving (half done)</h4>
-											<p>
-												Save the destroyed resources and any other changes.
-											</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="8u">
-											<h4>Storage Containers ✓</h4>
-											<p>
-												Crates and lockers that the player can use to store items.
-											</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="8u">
-											<h4>Objectives ✓</h4>
-											<p>
-												Actual gameplay would be nice.
-											</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="8u">
-											<h4>Machines</h4>
-											<p>
-												Machines to create new weapons and items.
-											</p>
-										</div>
-									</div>
-									<div class="row 50%">
-											<div class="8u">
-												<h4>Sound Effects ✓</h4>
-												<p>
-													Sound effects and noises made by players and the environement.
-												</p>
-											</div>
-										</div>
-									<div class="row 50%">
-										<div class="8u">
-											<h4>Ship Navigation ✓</h4>
-											<p>
-													Travel to new planets and explore.
-											</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="8u">
-										<h4>Beaming Up and Down ✓</h4>
-										<p>
-											Teleport from your ship to the planet below and vice versa.
-										</p>
-									</div>
-								</div>
-								<div class="row 50%">
-										<div class="8u">
-												<h4>Ship Saving and Editing</h4>
-											<p>
-												Allow the player to customize the interior of their ship.
-											</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="8u">
-										<h4>Music</h4>
-										<p>
-											In-game music while exploring.
-										</p>
-									</div>
-								</div>
-								<div class="row 50%">
-										<div class="8u">
-												<h4>Ship Upgrades</h4>
-											<p>
-												Ship upgrades like speed, size and storage.
-										</p>
-										</div>
-									</div>
-
-										<div class="row 50%">
-												<div class="8u">
-														<h4>Base Buidling</h4>
-													<p>
-														Allow the player to create bases on planets to store items in a safe location. May also need to add waypoints with this feature.
-													</p>
-												</div>
-											</div>
-											<div class="row 50%">
-											<div class="8u">
-													<h4>Farming</h4>
-												<p>
-													Plants grow taller and produce fruit as well as seeds to grow more plants.
-												</p>
-											</div>
-											<div class="8u">
-												<h4>Better Water ✓</h4>
-											<p>
-												Better under water camera fx and water physics.
-											</p>
-										</div>
-										</div>
-								</section>
-							</div>
-						</div>
+								<a href="downloads.html#interstellarexplorationDownload" class="button">Download</a>
+							</footer>
+						</section>
 						<hr />
-			<!-- Features -->
-
-					<section id="features" class="container special">
-						<header>
-							<h2>Recent Projects</h2>
-							<br>
-						</header>
-						<div class="row">
-							<article class="4u 12u(mobile) special">
-								<a href="1v1_racer.html" class="image featured"><img src="images/1v1Racerthumb.jpg" alt="" /></a>
-								<header>
-									<h3><a href="1v1_racer.html">1v1 Racer</a></h3>
-								</header>
-								<p>
-									My HSC major work and my first ever project in Unity. 
-									Try to beat your best lap time or race head to head with person 
-									sitting next you in a banana van.
-								</p>
-							</article>
-							<article class="4u 12u(mobile) special">
-								<a href="stuck.html" class="image featured"><img src="images/stuckthumb.jpg" alt="" /></a>
-								<header>
-									<h3><a href="stuck.html">Stuck</a></h3>
-								</header>
-								<p>
-									A puzzle game where you must switch between the overworld and the "other" world to complete puzzles in order to progress and lift your curse.
-								</p>
-							</article>
-							<article class="4u 12u(mobile) special">
-								<a href="elegantlymediocremod.html" class="image featured"><img src="images/ElegentlyMedicoreThumb.jpg" alt="" /></a>
-								<header>
-									<h3><a href="elegantlymediocremod.html">The Elegantly Mediocre Mod</a></h3>
-								</header>
-								<p>
-									An elegantly mediocre mod by an elegantly mediocre developer that adds elegantly mediocre content to an elegantly mediocre game.
-								</p>
-							</article>
-						</div>
-					</section>
-				</div>
-				</div>
-			<!-- Footer -->
-			<div id="footer">
-					<div class="container">
-						<div class="row">
-							<div class="12u">
-	
-								<!-- Contact -->
-									<section class="contact">
-										<header>
-											<h3>Want to contact me?</h3>
-										</header>
-										<p>Social Media Platforms</p>
-										<ul class="icons">
-											<li><a href="https://twitter.com/alex_figar" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="https://www.pinterest.com.au/alexfigar/" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-											<li><a href="https://www.linkedin.com/in/alex-figar/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-										</ul>
-									</section>
-	
-								<!-- Copyright -->
-									<div class="copyright">
-										<ul class="menu">
-											<li>&copy; AlexFigar. All rights reserved.</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-										</ul>
-									</div>
-	
+						<section>
+							<header>
+								<h3>To Do List:</h3>
+							</header>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Planet Saving</h4>
+									<p>
+										Save the destroyed resources and any other changes.
+									</p>
+								</div>
 							</div>
-	
-						</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Storage Containers</h4>
+									<p>
+										Crates and lockers that the player can use to store items.
+									</p>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Objectives</h4>
+									<p>
+										Actual gameplay would be nice.
+									</p>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Machines</h4>
+									<p>
+										Machines to create new weapons and items.
+									</p>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Sound Effects</h4>
+									<p>
+										Sound effects and noises made by players and the environement.
+									</p>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Ship Navigation ✓</h4>
+									<p>
+										Travel to new planets and explore.
+									</p>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Beaming Up and Down ✓</h4>
+									<p>
+										Teleport from your ship to the planet below and vice versa.
+									</p>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Ship Saving and Editing</h4>
+									<p>
+										Allow the player to customize the interior of their ship.
+									</p>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Music</h4>
+									<p>
+										In-game music while exploring.
+									</p>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Ship Upgrades</h4>
+									<p>
+										Ship upgrades like speed, size and storage.
+									</p>
+								</div>
+							</div>
+
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Base Buidling</h4>
+									<p>
+										Allow the player to create bases on planets to store items in a safe location.
+										May also need to add waypoints with this feature.
+									</p>
+								</div>
+							</div>
+							<div class="row 50%">
+								<div class="8u">
+									<h4>Farming</h4>
+									<p>
+										Plants grow taller and produce fruit as well as seeds to grow more plants.
+									</p>
+								</div>
+								<div class="8u">
+									<h4>Better Water</h4>
+									<p>
+										Better under water camera fx and water physics.
+									</p>
+								</div>
+							</div>
+						</section>
 					</div>
 				</div>
-	
+				<hr />
+				<!-- Features -->
+
+				<section id="features" class="container special">
+					<header>
+						<h2>Recent Projects</h2>
+						<br>
+					</header>
+					<div class="row">
+						<article class="4u 12u(mobile) special">
+							<a href="1v1_racer.html" class="image featured"><img src="images/1v1Racerthumb.jpg"
+									alt="" /></a>
+							<header>
+								<h3><a href="1v1_racer.html">1v1 Racer</a></h3>
+							</header>
+							<p>
+								My HSC major work and my first ever project in Unity.
+								Try to beat your best lap time or race head to head with person
+								sitting next you in a banana van.
+							</p>
+						</article>
+						<article class="4u 12u(mobile) special">
+							<a href="stuck.html" class="image featured"><img src="images/stuckthumb.jpg" alt="" /></a>
+							<header>
+								<h3><a href="stuck.html">Stuck</a></h3>
+							</header>
+							<p>
+								A puzzle game where you must switch between the overworld and the "other" world to
+								complete puzzles in order to progress and lift your curse.
+							</p>
+						</article>
+						<article class="4u 12u(mobile) special">
+							<a href="elegantlymediocremod.html" class="image featured"><img
+									src="images/ElegentlyMedicoreThumb.jpg" alt="" /></a>
+							<header>
+								<h3><a href="elegantlymediocremod.html">The Elegantly Mediocre Mod</a></h3>
+							</header>
+							<p>
+								An elegantly mediocre mod by an elegantly mediocre developer that adds elegantly
+								mediocre content to an elegantly mediocre game.
+							</p>
+						</article>
+					</div>
+				</section>
+			</div>
 		</div>
-	
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.onvisible.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-	
-	</body>
-	</html>
+		<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="12u">
+
+						<!-- Contact -->
+						<section class="contact">
+							<header>
+								<h3>Want to contact me?</h3>
+							</header>
+							<p>Social Media Platforms</p>
+							<ul class="icons">
+								<li><a href="https://twitter.com/alex_figar" class="icon fa-twitter"><span
+											class="label">Twitter</span></a></li>
+								<li><a href="https://www.pinterest.com.au/alexfigar/" class="icon fa-pinterest"><span
+											class="label">Pinterest</span></a></li>
+								<li><a href="https://www.linkedin.com/in/alex-figar/" class="icon fa-linkedin"><span
+											class="label">Linkedin</span></a></li>
+							</ul>
+						</section>
+
+						<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; AlexFigar. All rights reserved.</li>
+								<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.onvisible.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
