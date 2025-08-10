@@ -6,3 +6,6 @@ theme = 'dream'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+lightTheme = "emerald"
+darkTheme = "forest"
