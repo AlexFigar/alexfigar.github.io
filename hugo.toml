@@ -1,11 +1,14 @@
 baseURL = 'https://alexfigar.github.io/'
 languageCode = 'en-us'
-title = 'Alex Figars Portofilio'
+title = "Alex Figar's Portofilio"
 theme = 'dream'
+
+[params]
+lightTheme = "emerald"
+darkTheme = "forest"
+avatar = "profile.jpg"
+headerTitle = "Alex Figar's Portfolio"
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-
-lightTheme = "emerald"
-darkTheme = "forest"
