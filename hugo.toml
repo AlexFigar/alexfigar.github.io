@@ -2,3 +2,7 @@ baseURL = 'https://alexfigar.github.io/'
 languageCode = 'en-us'
 title = 'Alex Figars Portofilio'
 theme = 'dream'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
