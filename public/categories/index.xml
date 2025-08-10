@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Alex Figar&#39;s Portofilio</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Alex Figar&#39;s Portofilio</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Alex Figar's Portfolio</title><link>https://alexfigar.github.io/categories/</link><description>Recent content in Categories on Alex Figar's Portfolio</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://alexfigar.github.io/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

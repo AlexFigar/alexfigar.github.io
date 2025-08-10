@@ -1,6 +1,6 @@
 baseURL = 'https://alexfigar.github.io/'
 languageCode = 'en-us'
-title = "Alex Figar's Portofilio"
+title = "Alex Figar's Portfolio"
 theme = 'dream'
 
 [params]
