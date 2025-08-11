@@ -1,0 +1,8 @@
+socials = [
+  { href = "https://github.com/AlexFigar", target="_blank", icon = "logo-github", title = "GitHub" },
+  { href = "https://x.com/alex_figar", target="_blank", icon = "logo-x", title = "X" },
+  # { href = "https://bsky.app/profile/alexfigar.bsky.social", target="_blank", icon = "logo-bsky`", title = "BlueSky" },
+  # { href = "https://instagram.com/g1eny0ung", target="_blank", icon = "logo-instagram", title = "Instagram" },
+  { href = "https://www.linkedin.com/in/alex-figar/", target="_blank", icon = "logo-linkedin", title = "Linkedin" },
+  { href = "https://www.youtube.com/@AlexFigar", target="_blank", icon = "logo-youtube", title = "YouTube" }
+]
