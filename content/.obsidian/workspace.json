@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/1v1 Racer.md",
+                "file": "categories/Shaders.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1v1 Racer"
+              "title": "Shaders"
             }
           }
         ]
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -170,17 +171,18 @@
   },
   "active": "80178351b66ed6d4",
   "lastOpenFiles": [
-    "posts/Portals.md",
+    "_index.md",
+    "me.md",
+    "categories/Shaders.md",
+    "Untitled.md",
+    "categories",
     "posts/1v1 Racer.md",
     "posts/Sci Fi Crate Animation.md",
+    "posts/Portals.md",
     "posts/Low-Poly Ocean System.md",
     "2025-08-10.md",
-    "Untitled.md",
     "posts/Untitled.md",
     "Untitled.canvas",
-    "about/me.md",
-    "about/index.md",
-    "posts/1v1 Racer.md",
     "posts",
     "Index.md",
     "about"
