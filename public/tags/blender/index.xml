@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Alex Figar&#39;s Portfolio</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Alex Figar&#39;s Portfolio</description>
+    <title>Blender on Alex Figar&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/blender/</link>
+    <description>Recent content in Blender on Alex Figar&#39;s Portfolio</description>
     <image>
       <title>Alex Figar&#39;s Portfolio</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Short Riptide Networking Guide</title>
-      <link>http://localhost:1313/posts/riptide-guide/</link>
-      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/riptide-guide/</guid>
-      <description>A short guide to getting riptide up and running in Unity with client and server logic in the same project!</description>
-    </item>
+    <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blender/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SciFi Crate Animation</title>
       <link>http://localhost:1313/posts/sci-fi-crate-animation/</link>

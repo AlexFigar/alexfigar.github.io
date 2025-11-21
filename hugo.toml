@@ -14,7 +14,7 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "ExampleSite"
+title = "Alex Figars Portfolio"
 description = "ExampleSite description"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Alex Figar"
@@ -52,7 +52,7 @@ tocopen = false
 
   [params.profileMode]
   enabled = false
-  title = "ExampleSite"
+  title = "AlexFigar"
   subtitle = "This is subtitle"
   imageUrl = "<img location>"
   imageWidth = 120
@@ -116,15 +116,21 @@ SiteVerificationTag = "XYZabc"
   limit = 10
   keys = [ "title", "permalink", "summary", "content" ]
 
+  [[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 5
+
 [[menu.main]]
 identifier = "categories"
-name = "categories"
+name = "Categories"
 url = "/categories/"
 weight = 10
 
 [[menu.main]]
 identifier = "tags"
-name = "tags"
+name = "Tags"
 url = "/tags/"
 weight = 20
 
