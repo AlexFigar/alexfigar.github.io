@@ -44,10 +44,6 @@
     <loc>http://localhost:1313/posts/sci-fi-crate-animation/</loc>
     <lastmod>2025-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/art/</loc>
-  </url><url>
     <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/unity/</loc>
   </url>
 </urlset>
