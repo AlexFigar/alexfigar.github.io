@@ -15,7 +15,7 @@ minifyOutput = true
 [params]
 env = "production"
 title = "Alex Figars Portfolio"
-description = "ExampleSite description"
+description = "Alex Figars Portfolio"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Alex Figar"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
@@ -23,7 +23,7 @@ DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
 ShowReadingTime = true
-ShowShareButtons = true
+ShowShareButtons = false
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = false
@@ -52,12 +52,12 @@ tocopen = false
 
   [params.profileMode]
   enabled = false
-  title = "AlexFigar"
-  subtitle = "This is subtitle"
-  imageUrl = "<img location>"
-  imageWidth = 120
-  imageHeight = 120
-  imageTitle = "my image"
+  title = "Alex Figar"
+  subtitle = "I am a game developer based in Sydney, Australia"
+  imageUrl = "profile.jpg"
+  imageWidth = 200
+  imageHeight = 200
+  imageTitle = "profile image"
 
     [[params.profileMode.buttons]]
     name = "Posts"
@@ -66,10 +66,14 @@ tocopen = false
     [[params.profileMode.buttons]]
     name = "Tags"
     url = "tags"
+    [[params.profileMode.buttons]]
+    name = "Categories"
+    url = "categories"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
+  Title = "Hi there"
   Content = "My name is Alex Figar, I am a game developer based in Sydney, Australia"
+  imageUrl = "profile.jpg"
 
   [[params.socialIcons]]
   name = "x"
@@ -97,12 +101,12 @@ SiteVerificationTag = "XYZabc"
 SiteVerificationTag = "XYZabc"
 
   [params.cover]
-  hidden = true
-  hiddenInList = true
-  hiddenInSingle = true
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
 
   [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
+  URL = "https://github.com/AlexFigar/alexfigar.github.io/tree/master/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
@@ -136,3 +140,6 @@ weight = 20
 
 [markup.highlight]
 noClasses = false
+
+[markup.goldmark]
+renderer.unsafe = true
