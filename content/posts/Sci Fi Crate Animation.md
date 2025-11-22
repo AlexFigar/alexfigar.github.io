@@ -15,7 +15,7 @@ Cover:
   relative: false
 ---
 For a TAFE assignment I was tasked with creating a loot box animation for a hypothetical game.
-The assignment required me to create 1x loot box and 1x piece of rare loot and document the creative process through concept art, story boarding and blocking. Personally I'm not a fan of loot boxes in games but its only a hypothetical loot box in a hypothetical game.
+The assignment required me to create 1x loot box and 1x piece of rare loot and document the creative process through concept art, story boarding and blocking.
 <!--more-->
 
 ## Concept Art

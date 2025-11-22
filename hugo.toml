@@ -51,16 +51,16 @@ tocopen = false
   iconHeight = 35
 
   [params.profileMode]
-  enabled = false
+  enabled = true
   title = "Alex Figar"
-  subtitle = "I am a game developer based in Sydney, Australia"
+  subtitle = "I am a game developer based in Sydney, Australia. I have 3 years experience working on VR/AR projects in Unity and further 4 years with C#/VB in the legal tech industry."
   imageUrl = "profile.jpg"
   imageWidth = 200
   imageHeight = 200
   imageTitle = "profile image"
 
     [[params.profileMode.buttons]]
-    name = "Posts"
+    name = "Projects"
     url = "posts"
 
     [[params.profileMode.buttons]]
@@ -76,20 +76,19 @@ tocopen = false
   imageUrl = "profile.jpg"
 
   [[params.socialIcons]]
-  name = "x"
-  url = "https://x.com/alex_figar"
-
+  name = "youtube"
+  url = "https://www.youtube.com/@AlexFigar"
   [[params.socialIcons]]
   name = "BlueSky"
   url = "hhttps://bsky.app/profile/alexfigar.bsky.social"
 
   [[params.socialIcons]]
-  name = "youtube"
-  url = "https://www.youtube.com/@AlexFigar"
-
-  [[params.socialIcons]]
   name = "github"
   url = "https://github.com/AlexFigar"
+
+  [[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/alex_figar"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
