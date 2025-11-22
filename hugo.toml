@@ -80,7 +80,7 @@ tocopen = false
   url = "https://www.youtube.com/@AlexFigar"
   [[params.socialIcons]]
   name = "BlueSky"
-  url = "hhttps://bsky.app/profile/alexfigar.bsky.social"
+  url = "https://bsky.app/profile/alexfigar.bsky.social"
 
   [[params.socialIcons]]
   name = "github"
