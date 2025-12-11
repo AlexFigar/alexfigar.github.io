@@ -28,7 +28,7 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = false
 ShowWordCount = true
-ShowRssButtonInSectionTermList = true
+ShowRssButtonInSectionTermList = false
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
@@ -125,11 +125,17 @@ SiteVerificationTag = "XYZabc"
   url = "/search/"
   weight = 5
 
+  [[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/posts/"
+  weight = 10
+
 [[menu.main]]
 identifier = "categories"
 name = "Categories"
 url = "/categories/"
-weight = 10
+weight = 15
 
 [[menu.main]]
 identifier = "tags"

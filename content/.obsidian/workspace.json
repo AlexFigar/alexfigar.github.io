@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a114746267db637e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/Sci Fi Crate Animation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sci Fi Crate Animation"
-            }
-          },
-          {
             "id": "f0dd27b47cc67aec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Sci Fi Crate Animation.md",
+                "file": "posts/Riptide in Unity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sci Fi Crate Animation"
+              "title": "Riptide in Unity"
+            }
+          },
+          {
+            "id": "e03ba61490322df1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/Riptide in Unity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Riptide in Unity"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Low-Poly Ocean System"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 222.5
   },
   "right": {
     "id": "37fd325579f2a598",
@@ -200,14 +199,15 @@
   },
   "active": "f0dd27b47cc67aec",
   "lastOpenFiles": [
+    "posts/Sci-Fi Crate Animation.md",
     "posts/Riptide in Unity.md",
-    "posts/Sci Fi Crate Animation.md",
+    "Pasted image 20251210193415.png",
+    "posts/1v1 Racer.md",
+    "posts/Low-Poly Ocean System.md",
+    "posts/Portals.md",
     "blackhole.jpg",
     "OpeningAnimation 1.mp4",
     "OpeningAnimation.mp4",
-    "posts/Low-Poly Ocean System.md",
-    "posts/1v1 Racer.md",
-    "posts/Portals.md",
     "Search.md",
     "Untitled.base",
     "_index.md",
