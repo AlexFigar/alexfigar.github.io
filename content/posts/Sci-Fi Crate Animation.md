@@ -59,12 +59,16 @@ My first attempt at the opening animation. Its looking a little lifeless, even w
 
 ## Baking Textures
 
+Making sure that the texel density is even so that when baking no areas are blurry/low res.
 
 | ![](/lootbox/BoxTexel.png) | ![](/lootbox/LootTexel.png) |
 | -------------------------- | --------------------------- |
-| ![](/lootbox/BoxUV.png)    | ![](/lootbox/LootUV.png)    |
 
 After unwrapping the models and making sure their texel density was ok, I baked out various maps to make rendering the animation faster.
+
+| ![](/lootbox/BoxUV.png) | ![](/lootbox/LootUV.png) |
+| ----------------------- | ------------------------ |
+
 
 |           |                                |                                 |
 | --------- | ------------------------------ | ------------------------------- |
@@ -77,11 +81,9 @@ If these models were assets for a game I would spend a lot longer on the UV isla
 
 ## Storyboard
 
-I created a quick storyboard for the animation I wanted to create. I opted for 3 crates opening instead of one as I thought it would be more interesting. In hindsight this was a bad idea as it completely blew out my render times.
+I created a quick storyboard for the animation. I opted for 3 crates opening instead of one as I thought it would be more interesting. In hindsight this was a bad idea as it completely blew out my render times.
 
 I added some other loot items. The one on the left is just the blender default cube on an angle and the one on the right is some asset I had in my assets folder.
-
-I though it would be cool to have spotlights highlight each crate before they open in the same order.
 ![](/lootbox/storyboard.gif)
 ## Background Set
 I created a little set for my animation to take place in. I put a large window out to space and added some crates in the background.
@@ -106,4 +108,4 @@ I added some volumetric fog and the spotlights.
 And after cooking my GPU for a few hours... Finally!
 <video width= 100% src="/lootbox/lootboxfinal.mp4" controls> </video>
 
-Unfortunately due to having 7x lights in the scene with volumetric fog each FRAME takes MINUTES to render, so I really don't have the time to make any adjustments and try again before handing it in. So due to time limitations and audio not being part of the marking criteria, boxes sound like they are from Temu. I also wanted to make the boxes jump higher and rock a bit when they land so they don't feel so heavy and maybe brighten the scene a bit, It looks fine on my monitor but its too dark on the average screen.
+Unfortunately due to having 7x lights in the scene with volumetric fog each FRAME takes MINUTES to render, so I really don't have the time to make any adjustments and try again before handing it in. So due to the time constraints and audio not being part of the marking criteria, boxes sound like they are from Temu. I also wanted to make the boxes jump higher and rock a bit when they land so they don't feel so heavy and maybe brighten the scene a bit, It looks fine on my monitor but its too dark on the average screen.

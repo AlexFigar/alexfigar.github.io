@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Riptide in Unity.md",
+                "file": "posts/Sci-Fi Crate Animation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Riptide in Unity"
+              "title": "Sci-Fi Crate Animation"
             }
           },
           {
@@ -199,8 +199,8 @@
   },
   "active": "f0dd27b47cc67aec",
   "lastOpenFiles": [
-    "posts/Sci-Fi Crate Animation.md",
     "posts/Riptide in Unity.md",
+    "posts/Sci-Fi Crate Animation.md",
     "Pasted image 20251210193415.png",
     "posts/1v1 Racer.md",
     "posts/Low-Poly Ocean System.md",
