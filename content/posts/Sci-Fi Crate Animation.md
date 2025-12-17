@@ -31,7 +31,7 @@ Bringing the 2D drawings to life in 3D. I accidentally made the rare loot absolu
 
 | ![](/lootbox/GreyBoxOpen.png) | ![](/lootbox/GreyBoxLoot.png) |
 | ----------------------------- | ----------------------------- |
-## Wireframe
+## Wire frame
 
 I added the locking mechanism on to the notch of the loot box and forwent the energy particles in favour of a miniature blackhole, but without its accretion disk it looks pretty bad.
 
@@ -54,7 +54,7 @@ The accretion disk is now a separate plane with a texture applied to it so it do
 
 ## Opening Animation
 
-My first attempt at the opening animation. Its looking a little lifeless, even with the little with the little bounce at the end.
+My first attempt at the opening animation. Its looking a little lifeless, even with the little bounce at the end.
 <video width= 100% src="/lootbox/OpeningAnimation.mp4" controls> </video>
 
 ## Baking Textures
@@ -97,8 +97,7 @@ I textured the set using procedural materials. The walls are using a repeating b
 ![](/lootbox/set.jpg)
 ## Blocking
 A little test animation in Blender's realtime renderer, Eevee.
-Given that I was going to use Cycles for the final animation and darkened the scene to better see the reflections and indirect lighting. 
-I added some volumetric fog and the spotlights.
+Given that I was going to use Cycles for the final animation I darkened the scene to better see the reflections and indirect lighting before added some volumetric fog and the spotlights.
 <video width= 100% src="/lootbox/blocking.mp4" controls> </video>
 
 ---
