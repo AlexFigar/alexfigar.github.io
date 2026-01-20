@@ -13,7 +13,7 @@ ShowToc: true
 TocOpen: false
 Draft: "0"
 ---
-Riptide Networking is a lightweight C# networking library primarily designed for use in multiplayer games. It can be used in Unity as well as in other .NET environments. Despite being lean it is very flexible and getting it setup is not as hard as it looks.
+Riptide Networking is a lightweight C# networking library primarily designed for use in multiplayer games. It can be used in Unity as well as in other .NET environments. Despite being qlean it is very flexible and getting it setup is not as hard as it looks.
 
 Code can be found at https://github.com/AlexFigar/RiptideStarter.
 
@@ -35,10 +35,11 @@ As stated in the description of this library, riptide is a **lightweight** netwo
 
 ### Network Manager
 
-We will start by creating our own `NetworkManager.cs` using the singleton pattern and initialise riptides logger
+We will start by creating our own `NetworkManager.cs` as a singleton,  declare our client and server and initialise riptides logger.
 
-We will also declare some references to riptides server and client.
-```C#{lineos=true,hl_lines=[11,12,24]}
+
+
+```C#{lineos=true,hl_lines=[11,12,22]}
 using UnityEngine;
 using System.Collections.Generic;
 using Riptide;
@@ -60,14 +61,8 @@ public class NetworkManager : MonoBehaviour
         } else {
             _instance = this;
         }
+        RiptideLogger.Initialize(Debug.Log, Debug.Log, Debug.LogWarning, Debug.LogError, false);
         DontDestroyOnLoad(gameObject);
-        
-        RiptideLogger.Initialize(
-        Debug.Log, 
-        Debug.Log, 
-        Debug.LogWarning, 
-        Debug.LogError, 
-        false);
     }
 }
 ```
@@ -116,9 +111,9 @@ public static class ServerBehaviour
 }
 ```
 ### Client Behaviour
-Now its time for the client. Create a static class called `ClientBehaviour.cs`  Pretty similar setup just the opposite. Make sure everything is correct these classes look very similar at the moment.
+Now its time for the client. Create a static class called `ClientBehaviour.cs`  Pretty similar setup to the last class, just with swapped message ID's. Make sure everything is correct these classes do look very similar at the moment.
 
-```C#{lineos=true,hl_lines=[14]}
+```C#{lineos=true,hl_lines=[17]}
 using Riptide;
 using UnityEngine;
 
