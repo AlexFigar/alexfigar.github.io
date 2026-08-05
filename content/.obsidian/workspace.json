@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/1v1 Racer.md",
+                "file": "posts/3W2Coords.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1v1 Racer"
+              "title": "Backlinks for 3W2Coords"
             }
           },
           {
@@ -142,20 +142,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/1v1 Racer.md",
+                "file": "posts/3W2Coords.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1v1 Racer"
+              "title": "Outline of 3W2Coords"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 221.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -171,16 +172,16 @@
   },
   "active": "f0dd27b47cc67aec",
   "lastOpenFiles": [
-    "posts/Using Riptide in Unity.md",
-    "posts/3W2Coords.md",
-    "posts/Sci-Fi Crate Animation.md",
-    "Credits.md",
-    "Search.md",
-    "posts/Portals.md",
     "posts/1v1 Racer.md",
+    "posts/Using Riptide in Unity.md",
+    "posts/Sci-Fi Crate Animation.md",
+    "posts/3W2Coords.md",
+    "Credits.md",
+    "posts/Portals.md",
+    "posts/Low-Poly Ocean System.md",
+    "Search.md",
     "Untitled",
     "Pasted image 20251210193415.png",
-    "posts/Low-Poly Ocean System.md",
     "blackhole.jpg",
     "OpeningAnimation 1.mp4",
     "OpeningAnimation.mp4",

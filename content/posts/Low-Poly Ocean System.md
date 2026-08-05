@@ -10,6 +10,7 @@ tags:
   - ShaderGraph
 categories:
   - Game Dev
+  - Programming
 Draft: "1"
 ---
 Low poly ocean system using Unity

@@ -9,7 +9,10 @@ categories:
   - C#
   - Projects
 Draft: "1"
-cover: hsc/header.jpg
+cover:
+  image: hsc/header.jpg
+  responsiveImages: false
+  relative: false
 ---
 My HSC major work and my first ever project in Unity. Try to beat your best lap time or race head to head with person sitting next you in a banana van.
 
