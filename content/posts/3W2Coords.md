@@ -39,8 +39,6 @@ Returns this json with our desired coordinates
   "language": "en",
   "map": "https:\/\/w3w.co\/prices.slippery.traps"
 }
-
-
 ```
 
 Confirmed the 2 API endpoints I was after
